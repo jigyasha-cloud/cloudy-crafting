@@ -2,7 +2,7 @@
 
 A luxury handcrafted art e-commerce storefront — handcrafted coasters, ocean-wave trays, geode clocks, and custom flower-preservation keepsakes.
 
-**Live site:** [Add your Netlify link here once deployed]
+**Live site:** [cloudy-crafting.netlify.app]
 
 ## Features
 
