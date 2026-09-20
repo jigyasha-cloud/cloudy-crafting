@@ -44,4 +44,4 @@ Output is generated in the `dist/` folder.
 
 ## Deployment
 
-This project is configured for one-click deployment on **Netlify** via `netlify.toml`.
+This project is configured for one-click deployment on **Netlify** via `Netlify.toml`.
