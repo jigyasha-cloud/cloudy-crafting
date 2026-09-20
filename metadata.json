@@ -1,0 +1,6 @@
+{
+  "name": "cloud9_celebrations",
+  "description": "cloud9_celebrations by Neeta Kungrani: An elegant luxury resin artwork boutique featuring handcrafted resin creations, ocean wave trays, custom keepsakes, and DIY craft kits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
