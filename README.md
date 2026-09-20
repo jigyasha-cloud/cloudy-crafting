@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Cloudy Crafting 🎨
 
-# Run and deploy your AI Studio app
+A luxury handcrafted art e-commerce storefront — handcrafted coasters, ocean-wave trays, geode clocks, and custom flower-preservation keepsakes.
 
-This contains everything you need to run your app locally.
+**Live site:** [Add your Netlify link here once deployed]
 
-View your app in AI Studio: https://ai.studio/apps/2e929513-63f3-4452-84d4-b0179c06bcfd
+## Features
+
+- Product catalog with category filters, sorting, and search
+- Product detail pages with foil/finish options and gallery images
+- Shopping cart & wishlist (persisted locally)
+- Simulated checkout flow
+- Custom commission request form for bespoke orders
+- Instagram-style "Reels" showcase for social proof
+- Fully responsive, mobile-first design
+
+## Tech Stack
+
+- **React 19** + **TypeScript**
+- **Vite** — build tooling
+- **Tailwind CSS v4** — styling
+- **React Router v7** — routing
+- **Framer Motion** — animations
+- **Lucide React** — icons
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The app will be available at `http://localhost:3000`.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Output is generated in the `dist/` folder.
+
+## Deployment
+
+This project is configured for one-click deployment on **Netlify** via `netlify.toml`.
